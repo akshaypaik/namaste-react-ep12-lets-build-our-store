@@ -89,7 +89,13 @@ Currently, two official plugins are available:
       </div>
     </UserContext.Provider> -->
 
-    #
+    # Redux Toolkit
+    - Install libraries -> @reduxjs/toolkit and react-redux
+    - Build our own store
+    - Connect our store to our app
+    - Create a cart slice (cartSlice)
+    - dispatch(action)
+    - read data using Selector
 
 
 
