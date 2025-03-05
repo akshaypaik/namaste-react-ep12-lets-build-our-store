@@ -1,0 +1,21 @@
+.shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+.shimmer-card{
+    border: 1px solid transparent;
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 4px;
+}
+
+.shimmer-card img{
+    width: 100%;
+    border-radius: 8px;
+    max-height: 200px;
+}

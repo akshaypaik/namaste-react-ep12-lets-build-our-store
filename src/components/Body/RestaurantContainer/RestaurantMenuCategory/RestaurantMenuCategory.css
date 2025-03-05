@@ -1,0 +1,11 @@
+.category-name-accordion{
+    min-width: 800px;
+    background-color: aliceblue;
+    padding: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 12px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: rgba(28, 28, 28, 0.12) 0px 1.4rem 1.8rem;
+}

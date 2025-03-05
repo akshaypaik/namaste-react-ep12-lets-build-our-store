@@ -1,0 +1,17 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+    border: 1px solid transparent;
+    background-color: aliceblue;
+    padding: 40px;
+}
+
+.user-avatar{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 20px;
+}

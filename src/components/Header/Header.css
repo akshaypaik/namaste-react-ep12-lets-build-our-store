@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    /* justify-content: space-evenly; */
+    border: 1px solid black;
+    align-items: center;
+    background-color: black;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.connection-status{
+    margin-left: auto;
+    margin-right: 40px;
+    font-weight: 600;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    color: green;
+}
