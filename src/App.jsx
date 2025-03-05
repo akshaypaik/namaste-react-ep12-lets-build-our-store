@@ -3,6 +3,8 @@ import './App.css'
 import Header from './components/Header/Header';
 import { useEffect, useState } from 'react';
 import UserContext from './utils/Context/UserContext';
+import { Provider } from 'react-redux';
+import appStore from './utils/ReduxStore/appStore';
 
 function AppLayout() {
 
@@ -24,12 +26,15 @@ function AppLayout() {
     // We can pass function also into this provider like setUsername and use it somewhere else in our application to set the username.
     // This setUsername is refered in NavItems.jsx for example
     <UserContext.Provider value={{ loggedInUser: username, setUsername }}>
-      <div className='app'>
-        {/* <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}> */}
-        <Header />
-        {/* </UserContext.Provider> */}
-        <Outlet />
-      </div>
+      {/* This is redux store provider */}
+      <Provider store={appStore}>
+        <div className='app'>
+          {/* <UserContext.Provider value={{ loggedInUser: "Elon Musk" }}> */}
+          <Header />
+          {/* </UserContext.Provider> */}
+          <Outlet />
+        </div>
+      </Provider>
     </UserContext.Provider>
   )
 }

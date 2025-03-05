@@ -96,6 +96,7 @@ Currently, two official plugins are available:
     - Create a cart slice (cartSlice)
     - dispatch(action)
     - read data using Selector
+    - Refer appStore.js and cartSlice.js
 
 
 

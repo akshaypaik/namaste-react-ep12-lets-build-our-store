@@ -103,6 +103,36 @@
     font-weight: 300;
 }
 
+.menu-quantity{
+    font-family: Gilroy;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.45px;
+    color: rgb(27, 166, 114);
+    cursor: pointer;
+    background-color: aliceblue;
+    border: 1px solid grey;
+    border-radius: 8px;
+    position: absolute;
+    bottom: 0;
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-weight: 600;
+    padding: 0;
+    align-items: center;
+}
+
+.quantity-incr-icon{
+    border: 1px solid lightgreen;
+    padding: 4px 8px;
+    background-color: lightgreen;
+    border-radius: 8px;
+}
+
 .menu-add:hover{
     background-color: lightgreen;
     color: white;
